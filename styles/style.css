@@ -1,0 +1,46 @@
+body{
+background-image: url('https://d3uhnnsvth2wmm.cloudfront.net/eyJidWNrZXQiOiJrbHItYXNzZXRzIiwia2V5IjoiYmFubmVyL2Jhbm5lci1jYXJlZXItc2VjdGlvbi5wbmciLCJlZGl0cyI6eyJwbmciOnsicXVhbGl0eSI6ODIsInByb2dyZXNzaXZlIjpmYWxzZX0sInJlc2l6ZSI6eyJ3aWR0aCI6MTIwMCwiaGVpZ2h0Ijo2MzAsImZpdCI6ImNvdmVyIn0sInNoYXJwZW4iOnRydWV9fQ==?mtime=1563985740');
+}
+
+img {
+  border: 5px solid magenta;
+  border-radius: 4px;
+  padding: 3px;
+  object-fit: contain;
+}
+
+.header {
+  padding: 5px;
+  text-align: center;
+  background: mediumslateblue;
+  color: white;
+  font-size: 30px;
+}
+
+label {
+  /*
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  */
+  text-align: center;
+  width: 100px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.card {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  align-content: center;
+  background-color: #f1f1f1;
+}
+
+.footer{
+  padding: 5px;
+  text-align: center;
+  background: mediumslateblue;
+  color: white;
+  font-size: 20px;
+}
