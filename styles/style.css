@@ -3,7 +3,7 @@ background-image: url('https://d3uhnnsvth2wmm.cloudfront.net/eyJidWNrZXQiOiJrbHI
 }
 
 img {
-  border: 3px solid lavender;
+  border: 5px solid magenta;
   border-radius: 4px;
   padding: 3px;
   object-fit: contain;
@@ -30,11 +30,15 @@ label {
 }
 
 .card {
-  margin: 5px;
+  margin: 10px;
   padding: 5px;
   text-align: center;
   align-content: center;
   background-color: #f1f1f1;
+}
+
+ol{
+  text-align: left;
 }
 
 .footer{
@@ -43,4 +47,16 @@ label {
   background: mediumslateblue;
   color: white;
   font-size: 20px;
+}
+
+.inline {
+  display: inline; 
+}
+
+.tab {
+  padding-left: 105px;
+}
+
+.tab2 {
+  padding-left: 60px;
 }
